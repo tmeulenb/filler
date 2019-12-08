@@ -54,6 +54,6 @@ The game will end when no pieces can be placed anymore. The champion with the
 most points is the winner! This is what a finished game will look like in the terminal.
 This was a game between my player (score: 268) and the best player provided to us by codam (score: 77).
 ```
-![Finished Game.](filler.png)
+![Finished Game.](srcs/filler.png)
 </br>
 </br>
