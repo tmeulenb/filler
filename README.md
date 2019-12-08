@@ -1,4 +1,4 @@
-# Filler - A combination of tetris and connect-four.
+# Filler - A combination of Tetris and Connect-four
 
 </br>
 <em>Summary:
