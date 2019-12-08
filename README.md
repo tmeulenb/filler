@@ -1,4 +1,4 @@
-# Filler - A tetris like game where champions battle eachother on a N x N grid.
+# Filler - A tetris-like game where champions battle eachother on a N x N grid.
 
  </br>
 <em>Summary:
