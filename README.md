@@ -35,7 +35,6 @@ Usage: resources/filler_vm -f path [-i | -p1 path | -p2 path] [-s | -q | -t time
 ```
 
 ## Algorithm:
-```
 I've written a very simple heatmap algorithm using a BFS on a 2D integer array. 
 Every position in the grid will get a level based on how far it is from the enemy.
 Closest to the enemy is 1 and every step away from the enemy is +1. 
@@ -44,14 +43,12 @@ calculate the scores based on the heatmap levels. A lower score is better.
 The X and Y position of the lowest score are saved and that is where I place the piece.
 Player 1 = 'O' and player 2 = 'X'. Player 1 always begins.
 
-```
-
 ## Rules
-```
 The game will end when no pieces can be placed anymore. The champion with the 
 most points is the winner! This is what a finished game will look like in the terminal.
 This was a game between my player (score: 268) and the best player provided to us by codam (score: 77).
-```
+
+
 ![Finished Game.](srcs/filler.png)
 </br>
 </br>
