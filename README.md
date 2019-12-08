@@ -23,7 +23,7 @@ cd filler && make
 
 ## Usage:
 ```
-After doing the steps above you will have my champions as a executable. 
+After doing the steps above you will have my champion as a executable. 
 You will need to run the champion within the filler_vm located in resources.
 Usage: resources/filler_vm -f path [-i | -p1 path | -p2 path] [-s | -q | -t time]
 
@@ -38,7 +38,7 @@ Usage: resources/filler_vm -f path [-i | -p1 path | -p2 path] [-s | -q | -t time
 
 ## Algorithm:
 ```
-I've written a very simple heatmap algorithm based on a BFS. 
+I've written a very simple heatmap algorithm using a BFS on a 2D integer array. 
 Every position in the grid will get a level based on how far it is from the enemy.
 Closest to the enemy is 1 and every step away from the enemy is +1. 
 After making the heatmap I bruteforce all the possible placements and 
